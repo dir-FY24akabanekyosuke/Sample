@@ -22,9 +22,16 @@ public class Calc {
         var result4=num1/num2;
         System.out.println("num1/num2="+result4);
         
+        //剰余
+        var result5=num1%num2;
+        System.out.println("num1%num2="+result5);
+                
+       
+        
+        
         
        
 
-    }
+        }
 
 }
