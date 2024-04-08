@@ -5,8 +5,11 @@ public class ExemptionExample1 {
     public static void main(String[] args) {
         System.out.println("処理開始");
         try {
-            //ここに例外コード            System.out.println("割り算開始");
+            //ここに例外コード           
+            System.out.println("割り算開始");
             int a=10/0;
+            System.out.println(a);
+           
         } catch (ArithmeticException e) {
             // Ariが発生した時の処理
             System.out.println("ArithmeticException caught:"+ e.getMessage());
